@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.hdrepo"
+       name="ISMovies"
+       version="2.4.8"
+       provider-name="ISMovies">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.simple.downloader" version="1.9.4" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en</language>
+        <summary lang="en">ISMovies</summary>
+        <description lang="en">HD repository</description>
+    </extension>
+</addon>
+</addons>
